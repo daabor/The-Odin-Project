@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="rps.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- ! overall winner notification -->
+    <div class="blur-overall">
+            <p class="winner-message">
+            </p>
+    </div>
+
+    <!-- ! round winner notification -->
+    <div class="blur-round">
+        <div class="result">
+            <p class="outcome"></p>
+            <button>Play again</button>
+            <div class="choices">
+                <div class="user-choice">
+                    <p>You chose:</p>
+                    <img>
+                </div>
+                <div class="computer-choice">
+                    <p>Computer chose:</p>
+                    <img>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="scores">
+            <p>
+                YOU: <span class="user-score">0</span>
+            </p>
+            <p >
+                COMPUTER: <span class="computer-score">0</span>
+            </p>
+        </div>
+        <div class="main">
+            <div class="text">
+            <p>
+                Play Rock Paper Scissors with a computer!
+            </p>
+            <p class="secondary-text">
+                5 rounds, 1 winner.
+            </p>
+        </div>
+        <div class="moves">      
+            <img class="rock" src="rock.png" alt="rock">
+            <img class="paper" src="paper.png" alt="paper">
+            <img class="scissors" src="scissors.png" alt="scissors">
+        </div>
+        </div>
+        
+    </div>
+    
+    
+</body>
+</html>
